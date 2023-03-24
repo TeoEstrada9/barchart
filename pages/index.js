@@ -6,9 +6,11 @@ import BarChart from '@/components/BarChart'
 import { Pie } from 'react-chartjs-2'
 import PieChart from '@/components/PieChart'
 import LineChart from '@/components/LineChart'
-import { GrHomeRounded } from "react-icons/Gr"
-import { AiFillDashboard } from "react-icons/Ai"
-import { CgProfile } from "react-icons/Cg"
+import { GrHomeRounded } from "react-icons/gr"
+import { AiFillDashboard } from "react-icons/ai"
+import { CgProfile } from "react-icons/cg"
+import { BiMessageAltDetail} from "react-icons/bi"
+
 
 
 
@@ -39,6 +41,7 @@ export default function Home() {
                     
                 </li>
                 <li className={styles.menuItems}>
+                  <BiMessageAltDetail className={styles.message}/>
                     About
                 </li>
             </ul>
