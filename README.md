@@ -1,5 +1,5 @@
 # Description
-> Creating a one page document that will include 3 different graphs from statistics from Canada gov website
+> Creating a one page document that will include 3 different graphs of statistics from Canada gov website
 
 ## Chart.js 2 
 https://react-chartjs-2.js.org/examples/vertical-bar-chart
