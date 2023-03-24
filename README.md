@@ -10,4 +10,13 @@ npm i react-chartjs-2
 ```
 
 
-##Doughnut chart
+## Different Charts 
+
+### Bar Chart 
+
+### Line Chart 
+
+### Pie Chart
+
+> Canada data website 
+- https://www150.statcan.gc.ca/n1/en/type/data

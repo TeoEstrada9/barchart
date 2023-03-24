@@ -3,6 +3,12 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import BarChart from '@/components/BarChart'
+import { Pie } from 'react-chartjs-2'
+import PieChart from '@/components/PieChart'
+import LineChart from '@/components/LineChart'
+import { GrHomeRounded } from "react-icons/Gr"
+import { AiFillDashboard } from "react-icons/Ai"
+import { CgProfile } from "react-icons/Cg"
 
 
 
@@ -16,7 +22,39 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <BarChart/>
+        <h1 className={styles.title}>Graph Dashboard</h1>
+        <aside className={styles.nav}>
+            <ul className={styles.menu}>
+                <li className={styles.menuItems}>
+                <GrHomeRounded className={styles.home}/>
+                Home
+                </li>
+                <li className={styles.menuItems}>
+                  <AiFillDashboard className={styles.dash}/>
+                    Dashboard
+                </li>
+                <li className={styles.menuItems}>
+                  <CgProfile className={styles.profile}/>
+                    Profile
+                    
+                </li>
+                <li className={styles.menuItems}>
+                    About
+                </li>
+            </ul>
+
+        </aside>
+     
+        <div className={styles.graphs}>
+          <BarChart/>
+          <LineChart/>
+          <PieChart/>
+        </div>
+        {/* <PieChart/> */}
+        
+       
+        
+       
       </main>
     </>
   )
