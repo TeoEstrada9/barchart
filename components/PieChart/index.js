@@ -26,11 +26,11 @@ export default function PieChart() {
 
     useEffect(() => {
         setChartData({
-            labels: ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"], 
+            labels: ["BC", "AB", "SK", "ON", "MB", "QC"], 
             datasets: [
                 {
-                    label: "Sales $", 
-                    data:  [30, 10, 56, 9], 
+                    label: "", 
+                    data:  [5399118, 4647178, 1214618, 15386407, 1431792, 8787554], 
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
@@ -62,7 +62,7 @@ export default function PieChart() {
                 }, 
                 title: {
                     display: true, 
-                    text: "Daily Revenue"
+                    text: "Population of Candaian Provinces"
                 }
             }, 
             maintainAspectRatio: false, 

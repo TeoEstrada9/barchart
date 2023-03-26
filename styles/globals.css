@@ -1,6 +1,4 @@
-/* main {
-    background-color: #D6F3FF;
-    object-fit: cover;
-    min-height: 100vh;
-    min-width: 100vw;
-} */
+.main {
+    margin: 0;
+    padding: 0;
+}
